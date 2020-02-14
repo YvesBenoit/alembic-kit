@@ -22,9 +22,13 @@ plugins:
 url: 'https://mydomain.com'
 baseurl: ''
 title: 'My website'
+#copyright: 'My website'
 description: 'This is my new website'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+#logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: '/assets/Agathe.jpeg'
+
+
 
 # Pagination
 paginate: 5
@@ -52,4 +56,5 @@ collections:
     description: "My thoughts and ideas"
     feature_text: |
       Welcome to my blog
-    feature_image: "https://picsum.photos/2560/600?image=866"
+    feature_image: "https://parisfc.fr/wp-content/uploads/2019/07/Benoitok-1024x576.png"
+#    feature_image: "https://picsum.photos/1300/400?image=989"

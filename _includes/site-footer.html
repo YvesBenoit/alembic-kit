@@ -1,0 +1,15 @@
+<footer class="footer">
+  <div class="container">
+    {% if page.copyright=='cette page n’est pas protégée.' %}
+
+    <div class="copyright  typeset">
+      <small class="small">&copy; {{ page.copyright }}  </small>
+    </div>
+    {% else %}
+    <div class="copyright  typeset">
+      <small class="small">&copy; {{ page.copyright }} {{ site.time | date: '%Y' }} </small>
+    </div>
+    {% endif %}
+    {% include nav-footer.html %}
+  </div>
+</footer>
